@@ -22,3 +22,8 @@ npm start      # http://localhost:3000
 | GET | `/api/campaigns` | Campaigns of the user's organisation |
 | GET | `/api/campaigns/:id` | One campaign |
 | POST | `/api/campaigns` | Create: `{ "title": "..." }` |
+| PUT | `/api/campaigns/:id/logo` | Upload logo (SVG) |
+| GET | `/api/campaigns/:id/leads.csv` | Export leads |
+| POST | `/api/campaigns/:id/video` | Generate a personalised video |
+| GET | `/l/:slug` | Public landing page |
+| POST | `/l/:slug/leads` | Public lead form |
